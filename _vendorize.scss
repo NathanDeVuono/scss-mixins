@@ -1,0 +1,7 @@
+@mixin vendorize($w, $v) {
+  -webkit-#{$w}: $v;
+  -moz-#{$w}: $v;
+  -ms-#{$w}: $v;
+  -o-#{$w}: $v;
+  #{$w}: $v;
+}
